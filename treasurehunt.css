@@ -1,0 +1,68 @@
+
+h1{
+    font-family: 'Bangers', cursive;
+    font-size: 72pt;
+    color: #ff2d1c;
+    letter-spacing: 3px;
+    background: -webkit-linear-gradient(#FF0000, #FFFF00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+     display:flex;
+    justify-content:center;
+}
+
+body{
+    background-image: url("https://i.imgur.com/lphQsc1.jpg");
+    background-size: cover;
+    background-position:center;
+}
+
+div{
+    font-family: 'Alegreya Sans SC', sans-serif;
+    color:yellow;
+    display:flex;
+    justify-content:center;
+}
+
+td:hover {
+    background-color: rgba(255,255,0,0.2);
+}
+
+footer{
+    font-family: 'Alegreya Sans SC', sans-serif;
+    color:yellow;
+}
+
+button {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    color:black;
+    font-size: 20px;
+    background-color:yellow;
+}
+/* unvisited link */
+.links:link {
+  color: red;
+}
+
+/* visited link */
+.links:visited {
+  color: green;
+}
+
+/* mouse over link */
+.links:hover {
+  color: lime;
+}
+
+/* selected link */
+.links:active {
+  color: blue;
+}
+
+td {
+  height: 80px;
+  width: 80px;
+  margin: auto;
+  text-align: center;
+}
+
